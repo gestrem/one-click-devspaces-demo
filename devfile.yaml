@@ -6,11 +6,12 @@ metadata:
 components:
 - name: dev-tools
   container:
-    image: quay.io/devfile/universal-developer-image:ubi9-latest
+    # image: quay.io/devfile/universal-developer-image:ubi9-latest
+    image: registry.redhat.io/devspaces/udi-rhel9:3.31.1
     memoryRequest: 512Mi # optional
-    memoryLimit: 2Gi # optional
-    cpuRequest: 100m # optional
-    cpuLimit: 4000m # optional
+    memoryLimit: 3Gi # optional
+    cpuRequest: 1000m # optional
+    cpuLimit: 3000m # optional
     mountSources: true
     env:
     - name: PORT
@@ -25,6 +26,8 @@ components:
       value: todoapp
     - name: POSTGRES_PORT
       value: '5432'
+    - name: KUBEDOCK_ENABLED
+      value: 'true'
     endpoints:
     - name: todo-app
       targetPort: 3000
