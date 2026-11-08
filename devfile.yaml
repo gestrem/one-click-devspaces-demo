@@ -27,7 +27,7 @@ components:
     - name: POSTGRES_PORT
       value: '5432'
     - name: KUBEDOCK_ENABLED
-      value: 'true'
+      value: "true"
     endpoints:
     - name: todo-app
       targetPort: 3000
