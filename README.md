@@ -3,8 +3,6 @@
 
 ## Run in DevSpaces with zero set up!
 
-[![Contribute](https://www.eclipse.org/che/contribute.svg)](https://devspaces.apps.cluster-kql8t.dyn.redhatworkshops.io/#https://github.com/slallemand/one-click-devspaces-demo)
-
 [![Contribute](https://www.eclipse.org/che/contribute.svg)](https://devspaces.apps.cluster-kql8t.dyn.redhatworkshops.io/#https://github.com/slallemand/one-click-devspaces-demo?ai-provider=opencodeai/opencode)
 
 ## Technology Stack
