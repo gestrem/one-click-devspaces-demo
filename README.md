@@ -1,9 +1,9 @@
 # To-Do App
 
 
-## Run in DevSpaces with zero set up!
+## Help required ! Critical fix expected !
 
-[![Contribute](https://www.eclipse.org/che/contribute.svg)](https://devspaces.apps.cluster-kql8t.dyn.redhatworkshops.io/#https://github.com/slallemand/one-click-devspaces-demo?ai-provider=opencodeai/opencode)
+[![Contribute](https://www.eclipse.org/che/contribute.svg)](https://devspaces.apps.cluster-kql8t.dyn.redhatworkshops.io/#https://github.com/gestrem/one-click-devspaces-demo?ai-provider=opencodeai/opencode)
 
 ## Technology Stack
 
@@ -26,6 +26,8 @@ todo-app/
 ```
 
 ## Getting Started
+
+Run the command from "Terminal > Run Task > app init"
 
 ### Prerequisites
 
