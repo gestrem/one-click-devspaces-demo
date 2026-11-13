@@ -58,4 +58,13 @@ components:
 - volume:
     size: 1Gi
   name: pgdata
+commands:
+- id: init-app
+  exec:
+    component: dev-tools
+    workingDir: ${PROJECT_SOURCE}
+    commandLine: npm install && npm run init-db && npm run dev
+    group:
+      kind: run
+      isDefault: true
 
